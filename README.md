@@ -7,9 +7,17 @@ To analyze Kickstarter data and uncover trends.
 The purpose of this project is to help Louise determine whether her funding goal is reasonable and when she should launch her play project using the data from other Kickstarter projects as our reference data.
 
 ## Analysis and Challenges
-
 ### Analysis of Outcomes Based on Launch Date
+First, a new column titled **years** was added to the original 'kickstarter_challenge.xlsx' file. In this column, the 'Year()' function was used to extract the year from the 'Date Created Conversion' column. 
+![Example of newly created *years* column](/resources/year-example.png)
 
+Next, a pivot table was created from the Kickstarter data and the new sheet was labeled "Theater Outcomes by Launch". The PivotTable Fields were made as follows: Filters were created for **parent category** and **years**, Columns for **outcomes**, Rows for **date created conversion**, and Values for **count of outcomes**. 
+
+![PivotTable Fields- completed](/resources/PivotTable.png)
+
+The PivotTable was then filtered to show only **theater** campaigns, and the 'live' outcome was filtered out. The remaining outcomes (successful, failed, and canceled) were sorted in descending order. An example of the finished PivotTable is shown below.
+
+![Final PivotTable](/resources/PivotTable-complete.png)
 
 ### Analysis of Outcomes Based on Goals
 
