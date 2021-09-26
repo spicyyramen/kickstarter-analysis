@@ -39,12 +39,14 @@ In this formula, the number successful, failed, and canceled for each funding go
 To calculate the percentage for each outcome/funding range, the number of a given outcome was divided by the total # of projects within the same funding range and multiplied by 100. An example of the formula in use from cell F2 is shown below:
 >`=IFERROR(B2/$E$2*100,0)`
 
-***Note, the `IFERROR` was not necessary for this to work. Inclusion will be explained later in the challenges section***
+***Note, the `IFERROR()` was not necessary for this to work. Inclusion will be explained later in the challenges section***
 
 Lastly, a line chart was created with the 'Funding Goal Ranges' listed on the x-axis and the 'Percentage of Outcome' on the y-axis. An image of this graph can be seen in the [**Results**](https://github.com/spicyyramen/kickstarter-analysis#results) section below.
 
 ### Challenges and Difficulties Encountered
 The primary issues I encountered were simple syntax errors. For instance, with the Outcomes v Goals formulas. When calculating the percentage outcomes, I ended up with divide-by-zero errors. Initially I thought it was because some of the values may have actually been zero. To correct this, I added the `IFERROR()` function before division formula, and set the value to be '0'. After further investigation I realized that the values weren't supposed to be zero, and that I had made a small mistake with syntax, so I fixed that issue and just left the `IFERROR()` formulas as they were (since it doesn't make a difference). 
+
+Another frequent syntax issue I ran into was when the specified cells would automatically change when applying a formula to multiple cells. This was usually an easy fix by just doing some investigating and adding '$' where appropriate until I got the function to work as intended.
 
 
 ## Results
