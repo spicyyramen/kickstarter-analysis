@@ -8,7 +8,7 @@ The purpose of this project is to help Louise determine whether her funding goal
 
 ## Analysis and Challenges
 ### Analysis of Outcomes Based on Launch Date
-First, a new column titled **years** was added to the original 'kickstarter_challenge.xlsx' file. In this column, the 'Year()' function was used to extract the year from the 'Date Created Conversion' column. 
+First, a new column titled **years** was added to the original `kickstarter_challenge.xlsx` file. In this column, the `Year()` function was used to extract the year from the 'Date Created Conversion' column. 
 ![Example of newly created *years* column](/resources/year-example.png)
 
 Next, a pivot table was created from the Kickstarter data and the new sheet was labeled "Theater Outcomes by Launch". The PivotTable Fields were made as follows: Filters were created for **parent category** and **years**, Columns for **outcomes**, Rows for **date created conversion**, and Values for **count of outcomes**. 
