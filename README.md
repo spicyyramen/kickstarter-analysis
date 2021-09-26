@@ -19,7 +19,7 @@ The PivotTable was then filtered to show only **theater** campaigns, and the 'li
 
 ![Final PivotTable](/resources/PivotTable-complete.png)
 
-A line chart was then created from the PivotTable which displayed the Launch Month on the x-axis and the percentage of each outcome along the y-axis. An example of this line chart can be found below in the '**Results**' section.
+A line chart was then created from the PivotTable which displayed the Launch Month on the x-axis and the percentage of each outcome along the y-axis. An example of this line chart can be found below in the [**Results**](https://github.com/spicyyramen/kickstarter-analysis#results) section.
 
 ### Analysis of Outcomes Based on Goals
 
