@@ -32,8 +32,8 @@ The PivotTable was then filtered to show only **theater** campaigns, and the 'li
 	
 Two conclusions that can be drawn from the graph below are:
 
-    1. All outcomes seem to follow the same trends based on month of the year
-    2. Summer (May-July) appears to be the best time to launch a theater project, and winter (Nov-Jan) seems to be the worst time to launch a theater project.
+1. All outcomes seem to follow the same trends based on month of the year
+2. Summer (May-July) appears to be the best time to launch a theater project, and winter (Nov-Jan) seems to be the worst time to launch a theater project.
 
 ![Theater Outcomes vs Launch](/resources/theater_outcomes_vs_launch.png)
 
