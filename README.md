@@ -22,7 +22,12 @@ The PivotTable was then filtered to show only **theater** campaigns, and the 'li
 A line chart was then created from the PivotTable which displayed the Launch Month on the x-axis and the percentage of each outcome along the y-axis. An example of this line chart can be found below in the [**Results**](https://github.com/spicyyramen/kickstarter-analysis#results) section.
 
 ### Analysis of Outcomes Based on Goals
+The purpose of this analysis was to evaluate the relationship between play campaign outcomes and their funding goal amounts. A new sheet was created with a table that looks like the image below.
 
+![Example Table](/resources/play-table.png)
+
+The `COUNTIFS()` function was then used to populate the number of projects with each outcome at the specified funding goal amounts. Here is an example of the formula in use:
+>`=COUNTIFS(Kickstarter!$F:$F,"successful",Kickstarter!$D:$D,"<1000",Kickstarter!$O:$O,"plays")`
 
 ### Challenges and Difficulties Encountered
 
